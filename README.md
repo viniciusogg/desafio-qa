@@ -1,24 +1,18 @@
-# Desafio QA Octaplus
+# Desafio Octaplus QA
 
-Elaborar um teste que faz login e logout na plataforma com sucesso
+Implementar um teste em Selenium que faz login e logout na plataforma OctaX.
 
-url de acesso: http://babc.mirror.octax.co
+O teste deve executar as seguintes etapas:
 
-### Login
+1. Acessar a plataform OctaX na URL http://babc.mirror.octax.co
 
-Utilize as credenciais de acesso abaixo:
+2. Inserir credenciais de acesso:
 
 - "inputUser": spot
 - "inputPassword": 
 
-clicar no botão "sign-in-button"
+3. Clicar no botão "sign-in-button": a plataforma deve redirecionar para o portal: http://babc.mirror.octax.co/octaxplatform;
 
-A plataforma deve redirecionar para o portal: http://babc.mirror.octax.co/octaxplatform
+4. No portal, clicar no botão "logout-button" para fazer logout: a plataforma deve redirecionar para a página de login;
 
-### Logout
-
-No portal, procure pelo botão "logout-button" e faça logout
-
-A plataforma deve redirecionar para o login
-
-Procure pelo elemento "sign-in-button" para garantir que o logout foi feito com sucesso
+5. Procure pelo elemento "sign-in-button" para garantir que o logout foi feito com sucesso;
